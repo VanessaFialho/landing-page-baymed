@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "Rubik";
+	src: url("fontes/Rubik-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Comfortaa";
+	src: url("fontes/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+	background-color: #E5E5E5;
+	text-align: center;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+/**Container fluid**/
+/**Navbar**/
+nav.navbar ul {
+	margin-left: auto;
+}
+
+nav.navbar li {
+	margin: 5px 15px;
+}	
+
+nav.navbar a {
+	font-size: 14px;
+	font-weight: 900;
+	color: #ffffff;
+}	
+
+ /**Cabeçalho**/	
+div.row.cabecalho {
+	background: url(imagens/capa1.png);
+	background-color: #333438;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	padding: 60px 20px 30px 20px;
+}
+
+div.row.cabecalho div.col-md-12 {
+	padding: 50px 40px;
+}
+
+div.row.cabecalho h1 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	margin: 20px auto 30px auto;
+	letter-spacing: 1px;
+}
+
+div.row.cabecalho span {
+	color: #24b5bf;
+}
+
+div.row.cabecalho h3 {
+	font-size: 18px;
+	margin: 50px auto;
+	line-height: 30px;
+}
+
+/**Container**/
+div.container {
+	margin-top: -60px;
+	background-color: #ffffff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+/**Info**/
+div.row.info {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+    font-weight: bold;
+    font-size: 24px;
+	padding: 40px;
+}
+
+div.row.info p {
+	font-size: 18px;
+	font-weight: 100;
+	color: #4d4d4e;
+}
+
+/**Pesquisa**/
+div.row.info div.col-md-12 {
+	padding: 10px 40px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+div.row.info div.col-md-12 h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #24b5bf;
+	margin-bottom: 25px;
+}
+
+div.row.info div.col-md-12 p {
+	font-size: 16px;
+}
+
+div.row.info div.col-md-12 input.txt {
+	max-width: 320px;
+	width: 100%;
+	font-size: 16px;
+	margin: 5px auto;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 8px;
+	border-color: #0ca6d1;
+}
+
+div.row.info div.col-md-12 input.formbtn {
+	font-size: 16px;
+	font-weight: 900;
+	padding: 8px 10px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: #24b5bf;
+	color: #ffffff;
+	margin: 20px auto;
+}
+
+div.row.info div.col-md-12 p#msg {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 18px;
+}
+
+/**O que fazemos?**/
+div.row.info div.col-md-6 {
+	margin-top: 20px;
+	padding: 20px;
+	display: table;
+}
+
+div.row.info div.col-md-6 div#imagem1  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.row.info div.col-md-6 div#infotxt  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.row.info div.col-md-6 h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #24b5bf;
+	margin-bottom: 20px;
+}
+
+/**Serviços**/
+div.row.servicos {
+	padding: 30px;
+}
+
+div.row.servicos div.col-md-4 {
+	padding: 40px;
+}
+
+div.row.servicos img {
+	width: 64px;
+	margin-bottom: 20px;
+}
+
+div.row.servicos h3 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+    font-size: 18px;
+	letter-spacing: 1px;
+	color: #24b5bf;
+}
+
+div.row.servicos p {
+    font-size: 14px;
+	font-weight: 100;
+	color: #4d4d4e;
+	line-height: 24px;
+}
+
+/**Rodapé 1**/
+div.row.contato {
+	text-align: left;
+	background-color: #333438;
+	color: #ffffff;
+	padding: 30px;
+}
+
+div.row.contato h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+
+div.row.contato h4 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+div.row.contato p {
+	font-size: 14px;
+	color: #ccc;
+}
+
+/**Rodapé 2**/
+div.row.rodape {
+	background-color: #2d2e31;
+	color: #ffffff;
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.col-md-12 p {
+	margin-top: 15px;
+}
+
+div.row.rodape a {
+	color: #1EC3F1;
+}

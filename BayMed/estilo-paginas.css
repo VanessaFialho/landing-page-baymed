@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "Rubik";
+	src: url("fontes/Rubik-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Comfortaa";
+	src: url("fontes/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+	background-color: #E5E5E5;
+	text-align: center;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+/**Container fluid**/
+/**Navbar**/
+nav.navbar ul {
+	margin-left: auto;
+}
+
+nav.navbar li {
+	margin: 5px 15px;
+}	
+
+nav.navbar a {
+	font-size: 14px;
+	font-weight: 900;
+	color: #ffffff;
+}	
+
+/**Cabeçalho**/	
+div.row.cabecalho {
+	background: url(imagens/capa1.png);
+	background-color: #333438;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px;
+	color: #ffffff;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+div.row.cabecalho h1 {
+	padding: 40px;
+	margin: 40px;
+}
+
+/**Container**/
+div.container {
+	margin-top: -60px;
+	background-color: #ffffff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+/**Sobre Nós**/
+div.row.sobre {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	font-size: 16px;
+	padding: 40px;
+}
+
+div.row.sobre div.col-md-6 {
+	display: table;
+	padding: 20px;
+}
+
+div.row.sobre div.col-md-6 div#imagem1  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.row.sobre div.col-md-6 h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+    font-size: 32px;
+	letter-spacing: 1px;
+	color: #24b5bf;
+}
+
+div.row.equipe {
+	padding: 30px;
+}
+
+div.row.equipe div.col-md-4 {
+	padding: 20px;
+}
+
+div.row.equipe div.col-md-4 img.img-fluid {
+	padding: 15px;
+}
+
+div.row.equipe h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #24b5bf;
+	font-size: 38px;
+}
+
+/**Contato**/
+div.row.formulario {
+    padding: 30px;
+}
+
+div.row.formulario span {
+    color: red;
+}
+
+div.row.formulario div.col-md-12 {
+    font-size: 20px;
+	padding: 20px;
+}
+
+div.row.formulario div.col-md-12#contato {
+    padding: 20px;
+	text-align: left;
+    font-size: 20px;
+}
+
+div.row.formulario div.col-md-12#contato h1 {
+    font-size: 32px;
+}
+
+div.row.formulario div.col-md-12#contato p {
+    max-width: 600px;
+	width: 100%;
+	font-size: 18px;
+}
+
+div.row.formulario div.col-md-12#contato button {
+	color: #ffffff;
+	background-color: #1EC3F1;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+/**Rodapé 1**/
+div.row.contato {
+	text-align: left;
+	background-color: #333438;
+	color: #ffffff;
+	padding: 30px;
+}
+
+div.row.contato h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: bolder;
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+
+div.row.contato h4 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+div.row.contato p {
+	font-size: 14px;
+	color: #ccc;
+}
+
+/**Rodapé 2**/
+div.row.rodape {
+	background-color: #2d2e31;
+	color: #ffffff;
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.col-md-12 p {
+	margin-top: 15px;
+}
+
+div.row.rodape a {
+	color: #1EC3F1;
+}
